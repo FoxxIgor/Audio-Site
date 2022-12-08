@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Audio Detector </title>
+        <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class="logoDiv">
+                <h1> Audio Detector <span><img src="present.png" id="presentLogo"></span></h1>
+            </div>
+           
+            <div class="mainDiv">
+                <h3> A A.I foi produzida para entender: palmas, gavetas abrindo e batidas na mesa</h3>
+                <button id="start" onclick="start()"> Iniciar </button>
+                <h3> Som detectado:<span id="som"></span></h3>
+                <img src="" id="imagens">
+                <h5> Criado Por: FoxxIgor</h5>
+            </div>
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</html>
